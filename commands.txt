@@ -1,0 +1,17 @@
+Backend
+
+cd /d "D:\Vani_GTM_Pulse_Upgraded\backend"
+.venv\Scripts\activate
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+
+
+New CMD
+curl http://127.0.0.1:8000/api/health
+
+
+Frontend
+
+New CMD
+cd /d "D:\Bhavana_Public_Portfolio\Vani_GTM_Pulse_Upgraded\frontend"
+npm install
+npm run dev
